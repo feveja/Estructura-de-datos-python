@@ -16,4 +16,8 @@ M3 = [[rp.randint(0,5) for j in range(columnas2) for i in range(filas2)]]
 #Para la resta de la Msuma con M3
 for i in range(filas2):
     for j in range(columnas2):
-        M3= 
+        M3= M3 - Msuma
+#Para el resultado imprimimos M3 p
+for i in range(filas2):
+    for j in range(columnas2):
+        print(M3[i][j])
