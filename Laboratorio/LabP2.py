@@ -10,3 +10,6 @@ for i in range(filas):
     for j in range(columnas):
         M1 = escalar*M1
 #Para imprimir la matriz resultante 
+for i in range(filas):
+    for j in range(columnas):
+        print(M1[i][j])
