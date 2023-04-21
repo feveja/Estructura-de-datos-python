@@ -17,7 +17,7 @@ M3 = [[rp.randint(0,5) for j in range(columnas2) for i in range(filas2)]]
 for i in range(filas2):
     for j in range(columnas2):
         M4 = M3 - Msuma         #Pero aqui esa misma variable nos lanza error
-#Para el resultado imprimimos M3 p
+#Para el resultado imprimimos M3 resultante
 for i in range(filas2):
     for j in range(columnas2):
         print(M4[i][j])
