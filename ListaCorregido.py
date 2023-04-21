@@ -6,6 +6,6 @@ for i in range(len(e)):
         aux=0
         if e(j)<e(j+1) and j+1<=len(e-1):
             aux= e(j)
-            e(j)= e(j+1)
+            e(j)=e(j+1)
             e(j+1)= aux
 print(e)
