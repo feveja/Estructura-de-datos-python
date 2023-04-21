@@ -47,4 +47,4 @@ for row in matrix:
 for row in matrix: #Filas
     for elemen in row: #Columnas
         print(element, end=" ")
-    print()
+    print(" ")
