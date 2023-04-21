@@ -21,3 +21,4 @@ for i in range(filas2):
 for i in range(filas2):
     for j in range(columnas2):
         print(Msuma[i][j]) #Error al imprimir 
+#Este Tomaria M1 y M2 los sumaria en una nueva matriz y esa matriz se restaria con M3 para luego imprimirse

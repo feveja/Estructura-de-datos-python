@@ -13,3 +13,4 @@ for i in range(filas):
 for i in range(filas):
     for j in range(columnas):
         print(M5[i][j]) #Me lanza error al imprimir la matriz resultante
+#Segun mi pensamiento poco logico este codigo tomaria la matriz generada y tomaria el escalar y lo multiplicaria y el resultado seria la misma matriz 
