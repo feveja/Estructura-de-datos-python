@@ -1,5 +1,4 @@
 import random
-
 #Creamos una matriz aleatoria 
 def matriz_random(filas,columnas):
     aux= []
@@ -42,7 +41,7 @@ print(m2,"\n")
 mf=resta_Ma(m1,m2)
 print("La resta de las matrices da como resultado: ")
 for fila in mf:
-    print(fila,"\n")
+    print(fila,)
 #Suma
 mf=suma(m1,m2)
 print("La suma de las matrices da como resultado: ")
