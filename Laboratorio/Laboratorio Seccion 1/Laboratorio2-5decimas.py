@@ -8,7 +8,7 @@ def matriz_random(filas,columnas):
         for j in range(columnas):
             e=random.randint(1,5)
             fila.append(e)
-        aux.append
+        aux.append(fila)
     return aux
 
 def resta_Ma(m,z):
