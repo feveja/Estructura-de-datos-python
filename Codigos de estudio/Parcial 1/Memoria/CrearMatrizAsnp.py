@@ -38,4 +38,4 @@ np.concatenate([x, y]) # Concatenacion
 #creacion de una matriz de ejemplo
 arr_2d = np.array(([5,10,15],[20,25,30],[35,40,45]))
 #Para su transpuesta
-arr_2d.T
+print(arr_2d.T)
