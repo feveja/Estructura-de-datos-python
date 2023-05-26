@@ -69,10 +69,15 @@ def crear_matriz_identidad(n):
     for i in range(n):
         matriz[i][i] = 1
     return matriz 
+def imprimir_matriz(matriz):
+    for fila in matriz:
+        for elemento in fila:
+            print(elemento, end=' ')
+        print()
 ##################################################
 M1 = matrizaleatoria(3,3) 
 M2 = matrizaleatoria(3,3)
 Mr = multiplicar(M1,M2)
 Mi = crear_matriz_identidad(3)
 Mrf= multiplicar(Mr,Mi)
-print(Mrf)
+imprimir_matriz(Mrf)

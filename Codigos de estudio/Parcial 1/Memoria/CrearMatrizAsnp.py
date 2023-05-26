@@ -23,7 +23,7 @@ else:
 # Generar una matriz de 3x3 con elementos aleatorios entre 5 y 10
 matriz = np.random.randint(5, 11, size=(3, 3)) #Size para el tamaño de nuestra matriz 
 # Calcular el determinante
-determinante = np.linalg.det(matriz)
+determinante = round(np.linalg.det(matriz))
 # Imprimir la matriz y el determinante
 print("Matriz:")
 print(matriz)
